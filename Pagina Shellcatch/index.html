@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de Shellcatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Barra de Idioma y Acceso -->
+    <div class="top-bar">
+        <div class="top-bar-right">
+            <div class="language-select">
+                <label for="language">Idioma:</label>
+                <select id="language">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                    <option value="pt">Português</option>
+                </select>
+            </div>
+            <button class="access-button">Acceso</button>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Shellcatch</div>
+            <ul class="nav-menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Comercio electrónico</h1>
+            <p>Comercialización de productos del mar totalmente verificados, rastreados y legales</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h2>Cámara de barco</h2>
+            <p>El más avanzado sistema de registro de vídeo y GPS en la nube que permite la recogida, análisis y gestión de datos extraídos de la actividad pesquera.</p>
+        </div>
+        <div class="feature-card">
+            <h2>Cámara costera</h2>
+            <p>Con Coastal Camera tendrás el único sistema todo en uno que te permite detectar de manera eficiente actividades ilegales en tu costa.</p>
+        </div>
+        <div class="feature-card">
+            <h2>Cámara a escala</h2>
+            <p>Un sistema intuitivo que facilita el trabajo de pesaje de tus productos gestionando los aspectos más relevantes de tu pesca.</p>
+        </div>
+    </section>
+
+    <!-- Nueva sección de contacto -->
+    <section class="contact">
+        <div class="contact-left">
+            <h2>Ofrecemos servicios de nube de última generación.</h2>
+            <p>Monitoreo de buques basado en la nube para pescadores de todo el mundo.</p>
+            <p>Déjanos tus datos y nos pondremos en contacto contigo.</p>
+        </div>
+        <div class="contact-right">
+            <form class="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </li>
+                    <li>
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </li>
+                    <li>
+                        <label for="phone">Teléfono:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </li>
+                    <li>
+                        <label for="comments">Comentarios:</label>
+                        <textarea id="comments" name="comments" rows="4"></textarea>
+                    </li>
+                    <li>
+                        <button type="submit" class="send-button">Enviar</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Shellcatch. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
